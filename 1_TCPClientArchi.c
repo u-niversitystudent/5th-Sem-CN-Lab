@@ -29,7 +29,7 @@ int main () {
 	bzero (&servaddr, sizeof (servaddr));
 	servaddr.sin_family = AF_INET;
 	servaddr.sin_addr.s_addr = htonl (INADDR_ANY);
-	servaddr.sin_8080 = htons (8080);
+	servaddr.sin_port = htons (8080);
 	
 	if (connect (sockfd, (SR*)&servaddr, sizeof (servaddr)) == 0)
 		printf ("client connected to server\n");
