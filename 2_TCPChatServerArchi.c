@@ -46,7 +46,7 @@ int main () {
 	int server_connect;
 	servaddr.sin_family = AF_INET;
 	servaddr.sin_addr.s_addr = htonl (INADDR_ANY);
-	servaddr.sin_8080 = htons (8080);
+	servaddr.sin_port = htons (8080);
 	
 	if (bind (sockfd, (struct sockaddr*)&servaddr, sizeof (servaddr)) == 0)
 		printf ("successfully bound with client\n");
