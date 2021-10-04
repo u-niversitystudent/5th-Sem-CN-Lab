@@ -49,11 +49,12 @@ void func (int sockfd) {
 		n=0;
 		while ((buff[n++] = getchar()) != '\n');
 		write (sockfd, buff, sizeof (buff));
+		if (!strncmp (buff, "exit", 4))
+			break;
 		bzero (buff, sizeof (buff));
 		read (sockfd, buff, sizeof (buff));
 		printf ("received message: %s\n", buff);
-		if (!strncmp (buff, "exit", 4))
-			break;
+		
 	} while (1);
 	printf ("exiting\n");
 }
