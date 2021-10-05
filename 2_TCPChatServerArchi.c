@@ -77,11 +77,11 @@ int main () {
 // NOTE: OUTPUT ERROR?
 /*
 Server
-$ gcc -pthread server.c -o outserver
+$ gcc -pthread 2_TCPChatServerArchi.c -o outserver
 $ ./outserver
 
 Client
-$ gcc -pthread client.c -o outclient
+$ gcc -pthread 2_TCPChatClientArchi.c -o outclient
 
 On each terminal for client
 $ ./outclient client1
