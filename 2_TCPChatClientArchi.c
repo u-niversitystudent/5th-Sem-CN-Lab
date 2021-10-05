@@ -4,6 +4,7 @@
 */
 
 // TCP CHAT CLIENT
+// ALSO SEE NOTE AT END ON HOW TO RUN OUTPUT
 
 #include <stdio.h>
 #include <netdb.h>
@@ -57,3 +58,17 @@ int main (int argc, char *argv[]) {
 	close (sockfd);
 	return 0;
 }
+
+// NOTE: OUTPUT ERROR?
+/*
+Server
+$ gcc -pthread server.c -o outserver
+$ ./outserver
+
+Client
+$ gcc -pthread client.c -o outclient
+
+On each terminal for client
+$ ./outclient client1
+$ ./outclient client2
+*/
