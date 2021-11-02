@@ -12,4 +12,4 @@ Semester: 5th
 
 Institute: NIT Silchar
 
-C and C++ Programmes for Implementation of TCP Client Server Architecture by Subhojit Ghimire
+C and C++ Programmes for Implementation of TCP and UDP Client Server Architecture by Subhojit Ghimire
