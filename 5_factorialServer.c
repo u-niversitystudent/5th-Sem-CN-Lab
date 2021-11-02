@@ -1,4 +1,6 @@
-// Q. Write a program for “Connectionless Iterative Service” in which the server finds the factorial of a number sent by the client and sends it back.
+// Q.5. Write a program for “Connectionless Iterative Service” in which the server finds the factorial of a number sent by the client and sends it back.
+
+// SERVER
 
 #include <stdio.h>
 #include <stdlib.h>
