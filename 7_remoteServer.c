@@ -22,7 +22,6 @@ int main() {
 	int serverDescriptor = socket(AF_INET, SOCK_DGRAM, 0);
     int size;
     char buffer[MAX], message[10][MAX], msg[MAX]=" ";
-	char out[]=">a.txt";
 	
     struct sockaddr_in clientAddress, serverAddress;
 
