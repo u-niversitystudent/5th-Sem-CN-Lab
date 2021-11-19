@@ -4,12 +4,6 @@ Q.7. Program for “Remote Command Execution” using sockets. (Description: The
 
 // SERVER
 
-/*
-Q.7. Program for “Remote Command Execution” using sockets. (Description: The client sends command(s) and data parameters (if required) to the server. The server will execute the command and send back the result to the client. Execute 3 commands.)
-*/
-
-// SERVER
-
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <stdio.h>
